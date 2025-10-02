@@ -107,4 +107,5 @@ export {
     createUser,
     updateUser,
     deleteUser,
+    login,
 }

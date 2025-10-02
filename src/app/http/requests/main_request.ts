@@ -5,6 +5,7 @@ interface IMainRequest extends Request {
     kd_user?: string
     token?: string
     dateTime?: moment.Moment
+    decodedToken?: any
 }
 
 export {IMainRequest}
